@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>X-Mess</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main class="wrap">
+  <div class="monitor"><canvas id="screen" width="640" height="480" aria-label="X-Mess game screen, 640 by 480"></canvas></div>
+
+  <form id="namebox" hidden autocomplete="off">
+    <input id="name" maxlength="16" spellcheck="false" autocapitalize="off" aria-label="Name for the hiscore table">
+    <button type="submit">OK</button>
+  </form>
+
+  <div class="pad" id="pad">
+    <button type="button" data-k="ArrowLeft" aria-label="Left">◀</button>
+    <button type="button" data-k="ArrowUp" aria-label="Rotate">↻</button>
+    <button type="button" data-k="ArrowDown" aria-label="Down">▼</button>
+    <button type="button" data-k="ArrowRight" aria-label="Right">▶</button>
+    <button type="button" data-k="Escape" class="wide">Esc</button>
+  </div>
+
+  <p class="keys"><kbd>←</kbd> <kbd>→</kbd> move · <kbd>↑</kbd> rotate · <kbd>↓</kbd> drop · <kbd>M</kbd> music · <kbd>S</kbd> sound · <kbd>Esc</kbd> menu</p>
+</main>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
