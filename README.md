@@ -1,5 +1,7 @@
 # X-Mess for the browser
 
+![X-Mess in the browser: the playfield half full of spinning ornaments, the Christmas tree on the left](docs/screenshot.png)
+
 A faithful browser port of **X-Mess**, the Christmas puzzle game Martijn van der Lee made in
 1998 as a computerised Christmas card for Windows 95 (DirectX, Delphi Games Creator).
 
