@@ -1,0 +1,19 @@
+X-Mess for the browser
+
+X-Mess
+Copyright 1998 Martijn van der Lee
+Original game design, code and graphics. The original graphics and texts are
+included here with the author's permission and released under the Apache
+License, Version 2.0.
+
+Browser port
+Copyright 2026 Vasil Kulakov
+JavaScript port, redrawn artwork, sound effects and music arrangements.
+
+The bitmap font was rendered from Oswald, copyright The Oswald Project Authors,
+licensed under the SIL Open Font License, Version 1.1.
+
+The music arranges melodies in the public domain: Silent Night (Franz Xaver
+Gruber, 1818), Jingle Bells (James Lord Pierpont, 1857), God Rest Ye Merry
+Gentlemen (traditional), We Wish You a Merry Christmas (traditional) and
+Shchedryk (Mykola Leontovych, 1914).

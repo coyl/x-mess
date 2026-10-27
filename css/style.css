@@ -17,6 +17,8 @@ body {
 #screen { display: block; width: 640px; height: 480px; max-width: 100%; background: #000; touch-action: none; }
 #screen.px { image-rendering: pixelated; }
 .keys { margin: 0; text-align: center; }
+.credit { margin: 0; text-align: center; font-size: 12px; color: #6f6656; }
+.credit a { color: #9a917f; }
 kbd { font-size: 12px; color: #e8dfc9; padding: 1px 5px; border: 1px solid #3a3326; }
 button:focus-visible, input:focus-visible { outline: 2px solid #e9c46a; outline-offset: 2px; }
 

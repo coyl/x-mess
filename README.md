@@ -5,8 +5,9 @@
 A faithful browser port of **X-Mess**, the Christmas puzzle game Martijn van der Lee made in
 1998 as a computerised Christmas card for Windows 95 (DirectX, Delphi Games Creator).
 
-> **Status: private preview for the original author.** Nothing here is licensed for
-> redistribution yet. A license will be added once the author has agreed to the terms.
+**Play it at <https://coyl.github.io/x-mess/>**
+
+Published with the blessing of the original author.
 
 ## Playing
 
@@ -66,8 +67,8 @@ Browser-specific additions, kept to a minimum:
 - hiscores are kept in the browser's local storage instead of `Data\011.x98`;
 - music is played by a small built-in General MIDI synthesizer (`js/audio.js`), so it
   sounds simpler than a 1998 sound card;
-- the third page of the title screen showed the author's 1998 postal address; the
-  greeting page is shown there instead.
+- the third page of the title screen showed the author's 1998 postal address; it now
+  credits the browser port instead.
 
 ## Assets
 
@@ -87,10 +88,6 @@ Browser-specific additions, kept to a minimum:
 The redrawn images are composited into the original screens and quantised to the game's
 own 256-colour palette, so they sit in the same 1998 look.
 
-Open questions for the author: which of the wooden wall, intro paper, snow wall and
-playfield landscape were his own work (they can then go back to the originals), and
-whether the original timer really ran at 50 Hz on Windows 95.
-
 The original images were read straight out of the executable: the `TFORM1` form
 resource holds a Delphi Games Creator `IL10` image library with a shared palette and 246
 8-bit images. The files in `assets/` are the final result of that extraction and of the
@@ -107,3 +104,13 @@ js/audio.js     samples and the General MIDI synthesizer
 assets/         images, sounds, music
 Dockerfile      nginx image serving the files above
 ```
+
+## Credits
+
+- **Original game** (1998): design, code and graphics by Martijn van der Lee.
+- **Browser port** (2026): Vasil Kulakov.
+
+## License
+
+Apache License 2.0, see [LICENSE](LICENSE) and [NOTICE](NOTICE). The original graphics
+and texts by Martijn van der Lee are included with his permission under the same license.

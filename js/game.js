@@ -226,8 +226,13 @@ export function createGame(g, img, scores, onScoresChanged) {
     draw('emptypf', 0, 0);
     draw('logo', 50 + wob(p[0], 25), 10);
     print(144 + wob(p[1], 50), 270, 'Press any key to start');
-    if (presCnt < 150 || presCnt >= 900) {
-      // ticks 900-1049 showed the author's 1998 postal address; the greeting is shown there instead
+    if (presCnt >= 900) {
+      // ticks 900-1049 showed the author's 1998 postal address; the port's credits are shown there instead
+      print(184 + wob(p[2], 100), 315, 'browser port 2026');
+      print(192 + wob(p[3], 100), 355, 'by vasil kulakov');
+      print(136 + wob(p[4], 100), 395, 'music: christmas carols');
+      print(144 + wob(p[5], 100), 435, 'from the public domain');
+    } else if (presCnt < 150) {
       print(80 + wob(p[2], 100), 315, 'Martijn van der lee wishes you');
       print(184 + wob(p[3], 100), 355, 'a merry christmas');
       print(296 + wob(p[4], 100), 395, 'and');
